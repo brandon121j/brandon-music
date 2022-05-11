@@ -6,7 +6,7 @@ const Layout = (props) => {
 
 	return (
 		<div>
-			<div style={{ marginBottom: 150 }}>
+			<div>
 				<Header />
 			</div>
 			<div>{children}</div>

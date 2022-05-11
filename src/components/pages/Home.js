@@ -1,10 +1,11 @@
 import Layout from '../layout/Layout';
+import '../styles/Pages.css'
 import React from 'react';
 
 const Home = () => {
 	return (
 		<Layout>
-			<div>Home</div>
+			<div className='background-1'>Home</div>
 		</Layout>
 	);
 };

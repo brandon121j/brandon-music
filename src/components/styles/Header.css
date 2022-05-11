@@ -1,18 +1,11 @@
 @import '~antd/dist/antd.css';
 
-.site-layout-content {
-	min-height: 280px;
-	padding: 24px;
-	background: #97AABD;;
+.navbar {
+	color: rgb(229, 229, 234);
+	background: rgb(28, 28, 30);
+	height: 75px;
 }
-#components-layout-demo-top .logo {
-	float: left;
-	width: 120px;
-	height: 31px;
-	margin: 16px 24px 16px 0;
-	background: #97AABD;
-}
-.ant-row-rtl #components-layout-demo-top .logo {
-	float: right;
-	margin: 16px 0 16px 24px;
+
+* {
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }

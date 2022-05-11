@@ -1,28 +1,16 @@
 import React from 'react';
-import '../styles/Header.css'
-import { Layout as AntLayout, Menu } from 'antd';
+import '../styles/Header.css';
+import { Layout as AntLayout } from 'antd';
 const { Header: AntHeader } = AntLayout;
 
-
-
-
 const Header = () => (
-
-		<AntHeader>
-			<Menu
-				theme="light"
-				mode="horizontal"
-				defaultSelectedKeys={['2']}
-				items={new Array(15).fill(null).map((_, index) => {
-					const key = index + 1;
-					return {
-						key,
-						label: `nav ${key}`,
-					};
-				})}
-			/>
-		</AntHeader>
-
+	<AntHeader className="navbar">
+		<div>
+		<div>Brandon Music</div>
+		<div></div>
+		<div></div>
+		</div>
+	</AntHeader>
 );
 
 export default Header;
