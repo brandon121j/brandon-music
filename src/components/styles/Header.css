@@ -1,11 +1,56 @@
 @import '~antd/dist/antd.css';
 
+@font-face {
+	font-family: 'Dosis';
+	src: url('../../data/fonts/Dosis-Regular.ttf');
+	src: url('../../data/fonts/Dosis-Regular.ttf') format('embedded-opentype'),
+		url('../../data/fonts/Dosis-Regular.ttf') format('woff2'),
+		url('../../data/fonts/Dosis-Regular.ttf') format('woff'),
+		url('../../data/fonts/Dosis-Regular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Dosis';
+	src: url('../../data/fonts/Dosis-Bold.ttf');
+	src: url('../../data/fonts/Dosis-Bold.ttf') format('embedded-opentype'),
+		url('../../data/fonts/Dosis-Bold.ttf') format('woff2'),
+		url('../../data/fonts/Dosis-Bold.ttf') format('woff'),
+		url('../../data/fonts/Dosis-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../../data/fonts/Inter-Regular.ttf');
+	src: url('../../data/fonts/Inter-Regular.ttf') format('embedded-opentype'),
+		url('../../data/fonts/Inter-Regular.ttf') format('woff2'),
+		url('../../data/fonts/Inter-Regular.ttf') format('woff'),
+		url('../../data/fonts/Inter-Regular.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter';
+	src: url('../../data/fonts/Inter-Bold.ttf');
+	src: url('../../data/fonts/Inter-Bold.ttf') format('embedded-opentype'),
+		url('../../data/fonts/Inter-Bold.ttf') format('woff2'),
+		url('../../data/fonts/Inter-Bold.ttf') format('woff'),
+		url('../../data/fonts/Inter-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
 .navbar {
 	color: rgb(229, 229, 234);
 	background: rgb(28, 28, 30);
 	height: 75px;
 }
 
-* {
-	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+h1 {
+	font-family: Inter;
+	color: rgb(244, 244, 244);
 }

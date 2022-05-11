@@ -6,7 +6,7 @@ const { Header: AntHeader } = AntLayout;
 const Header = () => (
 	<AntHeader className="navbar">
 		<div>
-		<div>Brandon Music</div>
+		<div><h1>Brandon Music</h1></div>
 		<div></div>
 		<div></div>
 		</div>
