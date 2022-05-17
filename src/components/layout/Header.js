@@ -1,6 +1,8 @@
 import React from 'react';
 import '../styles/Header.css';
-import { Row, Col, Input, Dropdown, Menu, Space, Button } from 'antd';
+import { Row, Col, Input, Dropdown, Menu, Button } from 'antd';
+import { UserOutlined } from '@ant-design/icons';
+
 
 const Header = () => {
   const menu = (
